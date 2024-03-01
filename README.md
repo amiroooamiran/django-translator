@@ -1,4 +1,3 @@
-
 # Django-translator
 
 Django-translator is a library which can provide both frontend and backend codes.
