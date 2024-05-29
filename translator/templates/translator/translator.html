@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translation Editor</title>
+    {% block css %}
+        {{ form.media.css }}
+    {% endblock %}
+</head>
+<body>
+    <h1>Translation Editor</h1>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Submit</button>
+    </form>
+    {% block js %}
+        {{ form.media.js }}
+    {% endblock %}
+</body>
+</html>
