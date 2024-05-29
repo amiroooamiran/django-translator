@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='django-translator',
+    name='dj-translator',
     version='0.0.1',
     packages=find_packages(),
     include_package_data=True,
@@ -17,7 +17,7 @@ setup(
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 5.0.0', 
+        'Framework :: Django :: 5.0', 
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
