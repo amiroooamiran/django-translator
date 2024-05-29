@@ -1,0 +1,11 @@
+{% extends "admin/change_form.html" %}
+{% load static %}
+
+{% block content %}
+<h1>Custom Translator Field</h1>
+<form method="post" action=".">
+    {% csrf_token %}
+    <input type={{ adminform }}>
+    <input type="submit" value="Save">
+</form>
+{% endblock %}
